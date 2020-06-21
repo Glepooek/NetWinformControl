@@ -68,6 +68,24 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\DataGridView\IDataGridViewCustomCell.cs" />
+    <Compile Include="Controls\FactoryControls\DialAisle\UCDialAisle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\DialAisle\UCDialAisle.Designer.cs">
+      <DependentUpon>UCDialAisle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Rotor\UCRotor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Rotor\UCRotor.Designer.cs">
+      <DependentUpon>UCRotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Turntable\UCTurntable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Turntable\UCTurntable.Designer.cs">
+      <DependentUpon>UCTurntable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\GraphicalOverlay\GraphicalOverlayComponent.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -123,6 +141,16 @@
     <Compile Include="Controls\TimeLine\UCTimeLine.Designer.cs">
       <DependentUpon>UCTimeLine.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ToolStripRendererEx\ControlPaintEx.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\GraphicsPathHelper.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\InterpolationModeGraphics.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\ProfessionalToolStripRendererEx.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\RegionHelper.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\RenderHelper.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\RoundStyle.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\SmoothingModeGraphics.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\TextRenderingHintGraphics.cs" />
+    <Compile Include="Controls\ToolStripRendererEx\ToolStripColorTable.cs" />
     <Compile Include="Controls\Transfer\TransferEventArgs.cs" />
     <Compile Include="Controls\Transfer\UCTransfer.cs">
       <SubType>UserControl</SubType>
@@ -665,8 +693,17 @@
     <EmbeddedResource Include="Controls\DateTime\UCTimePanel.resx">
       <DependentUpon>UCTimePanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FactoryControls\Blower\UCBlower.resx">
+      <DependentUpon>UCBlower.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\FactoryControls\MindMapping\UCMindMappingPanel.resx">
       <DependentUpon>UCMindMappingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FactoryControls\Rotor\UCRotor.resx">
+      <DependentUpon>UCRotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FactoryControls\Turntable\UCTurntable.resx">
+      <DependentUpon>UCTurntable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\KeyBord\UCKeyBorderAll.resx">
       <DependentUpon>UCKeyBorderAll.cs</DependentUpon>
