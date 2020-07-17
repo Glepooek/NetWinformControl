@@ -248,9 +248,7 @@
     <Compile Include="UC\UCTestLiveCharts\Cartesian\DataPagination\DataPaginationExample.Designer.cs">
       <DependentUpon>DataPaginationExample.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC\UCTestLiveCharts\Cartesian\DateTime\DateTimeExample.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="UC\UCTestLiveCharts\Cartesian\DateTime\DateTimeExample.cs" />
     <Compile Include="UC\UCTestLiveCharts\Cartesian\DateTime\DateTimeExample.Designer.cs">
       <DependentUpon>DateTimeExample.cs</DependentUpon>
     </Compile>
